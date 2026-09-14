@@ -5,74 +5,74 @@ Portfolio project: Power BI · DAX · Power Query · Data Modeling · Business I
 
 The dashboard combines Power Query, data modeling, DAX, interactive filtering, market analysis, pricing analysis, service-feature analysis, cuisine analysis, and city-level drill-downs to turn restaurant-level data into decision-oriented business insights.
 
-### 📊 Dashboard Overview
+## 📊 Dashboard Overview
 
-## 1. Executive Overview
+### 1. Executive Overview
 
 The Executive Overview provides the high-level picture of the Zomato restaurant dataset.
 
 ![Executive Overview](screenshots/Executive-Overview.png)
 
 
-## 2. Market Overview
-
-The Market Overview page compares countries using restaurant volume and customer ratings, while also providing a city-level view.
-
-![Market Overview](![Market Analysis](screenshots/market.png))
-
-
-## 3. Market Analysis
-
-The Market page provides a geographic view of restaurant-market presence.
-
-![Market Analysis](screenshots/Market.png)
-
-
-## 4. Pricing & Value
-
-The Pricing page analyzes restaurant distribution across the four price-range segments and compares average cost for two people.
-
-![Pricing & Value](screenshots/Pricing.png)
-
-
-## 5. Service Features & Engagement
-
-This page evaluates whether restaurants offering online delivery or table booking show different observed ratings and customer engagement.
-
-![Service Features](screenshots/Service-Features.png)
-
-
-## 6. Cuisine Analysis
-
-![Cuisine Analysis](screenshots/Cusines.png)
-
-The Cuisine page focuses on the Top 10 cuisines by restaurant presence and compares their average ratings.
-
-
-## 7. Cuisines & Engagement
+### 2. Cuisines & Engagement
 
 ![Cuisine & Engagement Analysis](screenshots/Cusines-and-Engagements.png)
 
 This page combines cuisine performance with customer engagement and service-feature analysis.
 
 
-## 8. City Drill Down
+### 3. Market Overview
+
+The Market page provides a geographic view of restaurant-market presence.
+
+![Market Analysis](screenshots/Executive-Overview.png)
+
+
+### 4. City Drill Down
 
 ![City Performance](screenshots/City-Drill-Down.png)
 
 The City Drill Down page provides a detailed view of restaurant performance at the city level.
 
 
-## 9. Key Insights
+### 5. Key Insights
 
 ![Business Insights](screenshots/Insights.png)
 
 The Insights page converts the dashboard analysis into business-oriented observations.
 
 
+### 6. Cuisine Analysis
+
+![Cuisine Analysis](screenshots/Cusines.png)
+
+The Cuisine page focuses on the Top 10 cuisines by restaurant presence and compares their average ratings.
 
 
-🧮 Data Preparation
+### 7. Service Features & Engagement
+
+This page evaluates whether restaurants offering online delivery or table booking show different observed ratings and customer engagement.
+
+![Service Features](screenshots/Service-Features.png)
+
+
+### 8. Pricing & Value
+
+The Pricing page analyzes restaurant distribution across the four price-range segments and compares average cost for two people.
+
+![Pricing & Value](screenshots/Pricing.png)
+
+
+### 9. Market Analysis
+
+The Market page compares countries using restaurant volume and customer ratings, while also providing a city-level view.
+
+![Market Overview](![Market Analysis](screenshots/Market.png))
+
+
+
+
+## 🧮 Data Preparation
 
 The dataset was prepared using Power Query before visualization.
 
@@ -102,7 +102,7 @@ The original restaurant table remains separate from the cuisine-split table.
 
 
 
-🗂️ Data Model
+## 🗂️ Data Model
 
 The model uses a country lookup table, the main restaurant table, and a cuisine-split table.
 
@@ -129,7 +129,7 @@ The direct Country Lookup → Cuisine Split relationship is inactive to avoid cr
 
 
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Technology
 
@@ -166,7 +166,7 @@ Tables, charts, treemaps, KPI cards, and maps
 
 
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 Zomato-Business-Intelligence-Dashboard/
 │
@@ -196,7 +196,7 @@ Zomato-Business-Intelligence-Dashboard/
 
 
 
-🎯 Business Questions Answered
+## 🎯 Business Questions Answered
 
 The dashboard was designed around the following questions:
 
@@ -217,7 +217,7 @@ Which cities represent the largest concentrations of restaurants?
 
 
 
-🚀 Project Workflow
+## 🚀 Project Workflow
 
 Raw Zomato Data
        ↓
@@ -239,9 +239,7 @@ Decision-Oriented Insights
 
 
 
-📌 Project Scope
-
-Included
+## 📌 Project Scope
 
 Data cleaning and transformation
 
@@ -269,23 +267,11 @@ Business insights
 
 Bookmark-based dashboard navigation
 
-Not Included
-
-Live Zomato API integration
-
-Predictive modeling
-
-Forecasting
-
-Currency normalization
-
-Restaurant recommendation engine
-
-Real-time market monitoring
 
 
 
-📜 License
+
+## 📜 License
 
 This project is distributed under the MIT License.
 
