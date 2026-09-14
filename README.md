@@ -294,7 +294,7 @@ This page combines cuisine performance with customer engagement and service-feat
 ## 8. City Drill Down
 
 The City Drill Down page provides a detailed view of restaurant performance at the city level.
-![City Performance](screenshots/city-drill-down.png)
+![City Performance](screenshots/City Drill Down.png)
 
 
 
