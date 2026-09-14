@@ -106,16 +106,6 @@ The original restaurant table remains separate from the cuisine-split table.
 
 The model uses a country lookup table, the main restaurant table, and a cuisine-split table.
 
-Sheet1 (Country Lookup)
-        1
-        |
-        *
-      zomato
-        1
-        |
-        *
-zomato split by cuisines
-
 Relationships
 
 Sheet1[Country Code] → zomato[Country Code]
@@ -165,36 +155,6 @@ Tables, charts, treemaps, KPI cards, and maps
 
 
 
-
-## 📁 Repository Structure
-
-Zomato-Business-Intelligence-Dashboard/
-│
-├── README.md
-├── LICENSE
-│
-├── dashboard/
-│   └── Zomato_Analytics_Dashboard.pbix
-│
-├── data/
-│   ├── zomato.csv
-│    ├── Service Features.png
-    ├── Cusines.png
-    ├── Cusines and Engagements.png
-    ├── City Drill Down.png
-    └── Insights.png
-
-
-
-
-  └── Country-Code.xlsx
-│
-├── screenshots/
-    ├── Executive Overview.png
-    ├── Market Overview.png
-    ├── Market.png
-    ├── Pricing.png
- 
 
 ## 🎯 Business Questions Answered
 
