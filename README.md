@@ -302,7 +302,7 @@ The City Drill Down page provides a detailed view of restaurant performance at t
 ## 9. Key Insights
 
 The Insights page converts the dashboard analysis into business-oriented observations.
-![Business Insights](screenshots/insights.png)
+![Business Insights](screenshots/Insights.png)
 
 
 
