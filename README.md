@@ -9,9 +9,9 @@ The dashboard combines Power Query, data modeling, DAX, interactive filtering, m
 
 ### 1. Executive Overview
 
-The Executive Overview provides the high-level picture of the Zomato restaurant dataset.
-
 ![Executive Overview](screenshots/Executive-Overview.png)
+
+The Executive Overview provides the high-level picture of the Zomato restaurant dataset.
 
 
 ### 2. Cuisines & Engagement
@@ -23,9 +23,9 @@ This page combines cuisine performance with customer engagement and service-feat
 
 ### 3. Market Overview
 
-The Market page provides a geographic view of restaurant-market presence.
-
 ![Market Analysis](screenshots/Executive-Overview.png)
+
+The Market page provides a geographic view of restaurant-market presence.
 
 
 ### 4. City Drill Down
@@ -67,7 +67,7 @@ The Pricing page analyzes restaurant distribution across the four price-range se
 
 The Market page compares countries using restaurant volume and customer ratings, while also providing a city-level view.
 
-![Market Overview](![Market Analysis](screenshots/Market.png))
+![Market Analysis](screenshots/Market.png))
 
 
 
@@ -178,14 +178,7 @@ Zomato-Business-Intelligence-Dashboard/
 │
 ├── data/
 │   ├── zomato.csv
-│   └── Country-Code.xlsx
-│
-├── screenshots/
-    ├── Executive Overview.png
-    ├── Market Overview.png
-    ├── Market.png
-    ├── Pricing.png
-    ├── Service Features.png
+│    ├── Service Features.png
     ├── Cusines.png
     ├── Cusines and Engagements.png
     ├── City Drill Down.png
@@ -194,7 +187,14 @@ Zomato-Business-Intelligence-Dashboard/
 
 
 
-
+  └── Country-Code.xlsx
+│
+├── screenshots/
+    ├── Executive Overview.png
+    ├── Market Overview.png
+    ├── Market.png
+    ├── Pricing.png
+ 
 
 ## 🎯 Business Questions Answered
 
